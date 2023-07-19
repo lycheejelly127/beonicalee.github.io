@@ -1,17 +1,11 @@
 * {
   padding: 0px;
   margin: 0px;
-  background-color: hsla(16, 34%, 70%, 1);
 }
 
 body {
   font-family: 'Quicksand', sans-serif;
-}
-
-/* image text */
-.image-text {
-  background-image: url(https://cdn.glitch.global/46829fa4-10a5-43d7-b4ca-539bca7093d9/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00ODYtYmctMDA1LXguanBn.jpg.webp?v=1689705382930);
-  
+  background-color: hsla(16, 34%, 70%, 1);
 }
 
 /* nav bar */
@@ -63,6 +57,30 @@ footer a {
   background-color: white;
 }
 
+/* image text */
+.image-text {
+  background-image: url(https://cdn.glitch.global/46829fa4-10a5-43d7-b4ca-539bca7093d9/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00ODYtYmctMDA1LXguanBn.jpg.webp?v=1689705382930);
+  padding: 3em;
+  text-align: center;
+  box-shadow: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 15;
+  color: black;
+}
+
+.image-text a {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+
+/* hover over buttons */
 li a:hover {
   background-color: hsla(16, 34%, 70%, 1);
+}
+
+.image-text a:hover {
+  color: white;
 }
