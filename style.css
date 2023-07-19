@@ -8,6 +8,12 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+/* image text */
+.image-text {
+  background-image: url(https://cdn.glitch.global/46829fa4-10a5-43d7-b4ca-539bca7093d9/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00ODYtYmctMDA1LXguanBn.jpg.webp?v=1689705382930);
+  
+}
+
 /* nav bar */
 nav {
   position: sticky;
@@ -58,5 +64,5 @@ footer a {
 }
 
 li a:hover {
-  background-color: white;
+  background-color: hsla(16, 34%, 70%, 1);
 }
