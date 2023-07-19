@@ -36,19 +36,27 @@ nav a {
 }
 
 /* about me section */
-h1 {
-  text-align: center;
-}
 .about-me {
   text-align: center;
   display: flex;
   flex-basis: 40%;
   justify-content: center;
-  padding: 3em 0.5em 3em 0.5em;
+  padding: 4em 0.5em 3em 0.5em;
+}
+
+#about-header {
+  text-align: center;
+  padding-top: 3em;
 }
 
 #introduction {
-  padding-left: 2em;
+  padding-left: 6em;
+  padding-top: 5em;
+  line-height: 3;
+}
+
+#about-image {
+  min-width: 227px;
 }
 
 /* footer */
