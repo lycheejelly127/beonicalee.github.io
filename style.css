@@ -35,35 +35,33 @@ nav a {
   background-color: white;
 }
 
-/* footer */
-footer {
-  bottom: 0;
-  list-style: none;
-  margin: 0;
+/* about me section */
+.about-me {
   text-align: center;
 }
 
-footer li {
-  display: inline;
-}
+/* footer */
 
-footer a {
-  display: inline-block;
-  padding: 10px;
-  text-decoration: none;
-  font-family: 'Playfair Display', serif;
-  color: black;
-  font-size: 17px;
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5em;
   background-color: white;
+  text-align: center;
 }
 
+.f-text {
+  color: black;
+}
 /* image text */
 .image-text {
   background-image: url(https://cdn.glitch.global/46829fa4-10a5-43d7-b4ca-539bca7093d9/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00ODYtYmctMDA1LXguanBn.jpg.webp?v=1689705382930);
   padding: 3em;
   text-align: center;
   box-shadow: black;
-  font-family: 'Montserrat', sans-serif
+  font-family: 'Montserrat', sans-serif;
   color: black;
 }
 
