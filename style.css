@@ -36,14 +36,25 @@ nav a {
 }
 
 /* about me section */
+h1 {
+  text-align: center;
+}
 .about-me {
   text-align: center;
+  display: flex;
+  flex-basis: 40%;
+  justify-content: center;
+  padding: 3em 0.5em 3em 0.5em;
+}
+
+#introduction {
+  padding-left: 2em;
 }
 
 /* footer */
 
 .footer {
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -58,7 +69,9 @@ nav a {
 /* image text */
 .image-text {
   background-image: url(https://cdn.glitch.global/46829fa4-10a5-43d7-b4ca-539bca7093d9/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00ODYtYmctMDA1LXguanBn.jpg.webp?v=1689705382930);
-  padding: 3em;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 11em;
   text-align: center;
   box-shadow: black;
   font-family: 'Montserrat', sans-serif;
