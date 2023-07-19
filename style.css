@@ -4,6 +4,10 @@
   background-color: hsla(16, 34%, 70%, 1);
 }
 
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
 /* nav bar */
 nav {
   position: sticky;
@@ -14,7 +18,7 @@ nav {
 }
 
 ul {
-  background-co
+  background-color: white;
 }
 
 nav li {
@@ -28,8 +32,10 @@ nav a {
   font-family: 'Playfair Display', serif;
   color: black;
   font-size: 17px;
+  background-color: white;
 }
 
+/* footer */
 footer {
   bottom: 0;
   list-style: none;
@@ -48,6 +54,7 @@ footer a {
   font-family: 'Playfair Display', serif;
   color: black;
   font-size: 17px;
+  background-color: white;
 }
 
 li a:hover {
