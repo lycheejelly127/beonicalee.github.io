@@ -1,0 +1,11 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  display: inline;
+  margin: 2em;
+  color: black;
+  text-align: center;
+}
