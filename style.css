@@ -118,7 +118,15 @@ button:hover {
 #project-header {
   background-image: url(https://cdn.glitch.global/46829fa4-10a5-43d7-b4ca-539bca7093d9/a77814641836e8b18a646822c055cb84.jpg?v=1689793983841);
   background-repeat: no-repeat;
-  background-size: 100#
+  background-size: 100%;
+  padding: 3em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#pj-desc {
+  width: 50%;
+  text-align: center;
 }
 
 /* footer */
