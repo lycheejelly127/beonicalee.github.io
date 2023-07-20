@@ -154,6 +154,11 @@ h2 {
   
 }
 
+.socials {
+  display: inline block;
+  padding: 3em;
+}
+
 .contact-main {
   text-align: center;
 }
