@@ -124,8 +124,11 @@ button:hover {
   font-family: 'Montserrat', sans-serif;
 }
 
+.project-main {
+  text-align: center;
+}
+
 #pj-desc {
-  width: 50%;
   text-align: center;
 }
 
