@@ -129,11 +129,14 @@ button:hover {
 }
 
 h2 {
-  
+  font-family: 'Ysabeau SC', sans-serif;
+  font-weight: 500;
 }
 
 #pj-desc {
   text-align: center;
+  color: white;
+  padding-top:
 }
 
 /* footer */
