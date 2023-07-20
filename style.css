@@ -122,6 +122,7 @@ button:hover {
   padding: 3em;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 1px 15px white;
 }
 
 .project-main {
@@ -131,12 +132,30 @@ button:hover {
 h2 {
   font-family: 'Ysabeau SC', sans-serif;
   font-weight: 500;
+  padding: 1em;
 }
 
 #pj-desc {
   text-align: center;
   color: white;
-  padding-top:
+  padding-top: 3em;
+}
+
+/* contact */
+
+.contact-header {
+  background-image: url("https://cdn.glitch.global/46829fa4-10a5-43d7-b4ca-539bca7093d9/rm336-jj-012_1_1.jpg?v=1689727381933");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 5em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 1px 20px white;
+  
+}
+
+.contact-main {
+  text-align: center;
 }
 
 /* footer */
