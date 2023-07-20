@@ -95,10 +95,18 @@ button {
   text-decoration: none;
   font-family: 'Playfair Display', sans-serif;
   font-size: 15px;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 40%;
+}
+
+#resume-button {
+  margin-left: 2em;
 }
 
 button:hover {
-  background-color: hsla(16, 34%, 70%, 1);
+  background-color: hsla(22, 47%, 73%, 1);
 }
 
 /* footer */
