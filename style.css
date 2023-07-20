@@ -135,6 +135,10 @@ h2 {
   padding: 1em;
 }
 
+.internship {
+  font-weight: 800;
+}
+
 #pj-desc {
   text-align: center;
   color: white;
@@ -167,6 +171,12 @@ h2 {
   text-align: center;
 }
 
+#submit {
+  padding: 2em;
+  color: black;
+  
+}
+
 /* footer */
 
 .footer {
@@ -175,6 +185,7 @@ h2 {
   bottom: 0;
   width: 100%;
   padding: 0.5em;
+  margin-top: 2em;
   background-color: white;
   text-align: center;
 }
