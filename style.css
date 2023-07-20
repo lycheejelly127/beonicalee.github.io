@@ -156,7 +156,11 @@ h2 {
 
 .socials {
   display: inline block;
-  padding: 3em;
+  padding: 1em;
+}
+
+#linkedin {
+  padding-right: 2em;
 }
 
 .contact-main {
