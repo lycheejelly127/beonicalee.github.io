@@ -1,6 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  text-decoration: none;
 }
 
 body {
@@ -75,13 +76,15 @@ nav a {
 
 #introduction {
   padding-left: 6em;
-  padding-top: 1.5em;
+  padding-top: 1em;
   line-height: 3;
   font-size: 20px;
+  width: 46%;
 }
 
 #about-image {
   min-width: 227px;
+  box-shadow: 0px 0px 30px white;
 }
 
 button {
@@ -92,10 +95,9 @@ button {
   display: inline-block;
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  text-decoration: none;
   font-family: 'Playfair Display', sans-serif;
   font-size: 15px;
-  margin: 0;
+  margin-bottom: 3em;
   position: relative;
   top: 50%;
   left: 40%;
@@ -103,6 +105,7 @@ button {
 
 #resume-button {
   margin-left: 2em;
+  color: black;
 }
 
 button:hover {
