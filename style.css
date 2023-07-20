@@ -38,6 +38,7 @@ nav a {
   
 }
 
+/* home page  */
 /* image text */
 .image-text {
   background-image: url(https://cdn.glitch.global/46829fa4-10a5-43d7-b4ca-539bca7093d9/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00ODYtYmctMDA1LXguanBn.jpg.webp?v=1689705382930);
@@ -110,6 +111,14 @@ button {
 
 button:hover {
   background-color: hsla(22, 47%, 73%, 1);
+}
+
+/* projects */
+
+#project-header {
+  background-image: url(https://cdn.glitch.global/46829fa4-10a5-43d7-b4ca-539bca7093d9/a77814641836e8b18a646822c055cb84.jpg?v=1689793983841);
+  background-repeat: no-repeat;
+  background-size: 100#
 }
 
 /* footer */
