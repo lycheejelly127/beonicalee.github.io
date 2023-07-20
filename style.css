@@ -35,6 +35,26 @@ nav a {
   background-color: white;
 }
 
+/* image text */
+.image-text {
+  background-image: url(https://cdn.glitch.global/46829fa4-10a5-43d7-b4ca-539bca7093d9/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00ODYtYmctMDA1LXguanBn.jpg.webp?v=1689705382930);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 11em;
+  text-align: center;
+  box-shadow: black;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-shadow: 1px 1px 5px white;
+}
+
+.image-text a {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
 /* about me section */
 .about-me {
   text-align: center;
@@ -42,17 +62,20 @@ nav a {
   flex-basis: 40%;
   justify-content: center;
   padding: 4em 0.5em 3em 0.5em;
+  text-shadow: 1px 1px 10px white;
 }
 
 #about-header {
   text-align: center;
   padding-top: 3em;
+  
 }
 
 #introduction {
   padding-left: 6em;
-  padding-top: 5em;
+  padding-top: 1.5em;
   line-height: 3;
+  font-size: 20px;
 }
 
 #about-image {
@@ -74,25 +97,6 @@ nav a {
 .f-text {
   color: black;
 }
-/* image text */
-.image-text {
-  background-image: url(https://cdn.glitch.global/46829fa4-10a5-43d7-b4ca-539bca7093d9/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00ODYtYmctMDA1LXguanBn.jpg.webp?v=1689705382930);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 11em;
-  text-align: center;
-  box-shadow: black;
-  font-family: 'Montserrat', sans-serif;
-  color: black;
-}
-
-.image-text a {
-  text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 15px;
-  color: black;
-}
-
 
 /* hover over buttons */
 li a:hover {
